@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" moduleId="org.eclipse.cdt.core.settings" name="GNU ARM v7.2.1 - Default">
+				<macros>
+					<stringMacro name="StudioSdkPath" type="VALUE_PATH_DIR" value="${StudioSdkPathFromID:com.silabs.sdk.stack.super:2.6.1._310455070}"/>
+					<stringMacro name="StudioToolchainPath" type="VALUE_PATH_DIR" value="${StudioToolchainPathFromID:com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904}"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="com.silabs.ss.framework.debugger.core.HEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.EBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule buildConfig.needsApplyStock="true" buildConfig.stockConfigId="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" cppBuildConfig.cppBuiltInState="[{&quot;builtinMacrosMap&quot;:{&quot;EFR32BG13P632F512GM48&quot;:&quot;1&quot;},&quot;builtinLibraryPathsStr&quot;:&quot;&quot;,&quot;builtinLibraryFilesStr&quot;:&quot;&quot;,&quot;builtinLibraryNames&quot;:[&quot;m&quot;],&quot;builtinLibraryObjectsStr&quot;:&quot;&quot;,&quot;id&quot;:&quot;&quot;,&quot;builtinIncludesStr&quot;:&quot;&quot;,&quot;resolvedOptionsStr&quot;:&quot;[{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.type\&quot;,\&quot;value\&quot;:\&quot;floatingpoint.type.softfp\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect\&quot;,\&quot;value\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect.c99\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.clibs\&quot;,\&quot;value\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level\&quot;,\&quot;value\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.default\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.flags\&quot;,\&quot;value\&quot;:\&quot;-c -x assembler-with-cpp -mfpu=fpv4-sp-d16 -mfloat-abi=softfp\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type\&quot;,\&quot;value\&quot;:\&quot;floatingpoint.type.softfp\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript\&quot;,\&quot;value\&quot;:\&quot;true\&quot;,\&quot;listValuesMap\&quot;:{}},{\&quot;toolId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base\&quot;,\&quot;listValues\&quot;:[],\&quot;builtin\&quot;:true,\&quot;optionId\&quot;:\&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs\&quot;,\&quot;value\&quot;:\&quot;false\&quot;,\&quot;listValuesMap\&quot;:{}}]&quot;}]" moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.referencedModules="[{&quot;removed&quot;:false,&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;builtin&quot;:true,&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.module.template.external.com.silabs.sdk.stack.super.ble.Bluetooth SDK.efr32-base\&quot;&gt;\r\n  &lt;inclusions pattern=\&quot;.*\&quot;/&gt;\r\n&lt;/project:MModule&gt;&quot;}]" projectCommon.savedStockVariables="{&quot;pathVar_RUNTEST&quot;:&quot;$(sdkInstallationPath)\\tool\\runtest&quot;,&quot;pathVar_BEANSHELL&quot;:&quot;$(sdkInstallationPath)\\tool\\beanshell&quot;,&quot;pathVar_HARDWARE_MODULE&quot;:&quot;$(sdkInstallationPath)\\hardware\\module&quot;,&quot;pathVar_APP_INTERNAL&quot;:&quot;$(sdkInstallationPath)\\app\\internal&quot;,&quot;pathVar_CMSIS&quot;:&quot;$(sdkInstallationPath)\\platform\\CMSIS&quot;,&quot;pathVar_SEGGER&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\segger&quot;,&quot;pathVar_RAIL_LIB&quot;:&quot;$(sdkInstallationPath)\\platform\\radio\\rail_lib&quot;,&quot;pathVar_CSLIB_SRC&quot;:&quot;$(sdkInstallationPath)\\platform\\middleware\\cslib_src&quot;,&quot;pathVar_DEVICE&quot;:&quot;$(sdkInstallationPath)\\platform\\Device&quot;,&quot;pathVar_TIMAC&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\timac&quot;,&quot;pathVar_BLUETOOTH_PROTOCOL&quot;:&quot;$(sdkInstallationPath)\\protocol\\bluetooth&quot;,&quot;pathVar_ESF_COMMON&quot;:&quot;$(sdkInstallationPath)\\app\\esf_common&quot;,&quot;pathVar_MICRIUM_OS&quot;:&quot;$(sdkInstallationPath)\\platform\\micrium_os&quot;,&quot;pathVar_BASE&quot;:&quot;$(sdkInstallationPath)\\platform\\base&quot;,&quot;pathVar_KIT&quot;:&quot;$(sdkInstallationPath)\\hardware\\kit&quot;,&quot;pathVar_HALCONFIG&quot;:&quot;$(sdkInstallationPath)\\platform\\halconfig&quot;,&quot;pathVar_ZIGBEE&quot;:&quot;$(sdkInstallationPath)\\protocol\\zigbee&quot;,&quot;pathVar_GLIB&quot;:&quot;$(sdkInstallationPath)\\platform\\middleware\\glib&quot;,&quot;pathVar_MICRIUM_OS_EXAMPLE&quot;:&quot;$(sdkInstallationPath)\\app\\micrium_os_example&quot;,&quot;pathVar_USBXPRESS&quot;:&quot;$(sdkInstallationPath)\\platform\\middleware\\usbxpress&quot;,&quot;pathVar_PRODUCTION_BOOTLOADER&quot;:&quot;$(sdkInstallationPath)\\platform\\production_bootloader&quot;,&quot;pathVar_TCMGR&quot;:&quot;$(sdkInstallationPath)\\tool\\tcmgr&quot;,&quot;pathVar_MICRIUM_COMPONENTS&quot;:&quot;$(sdkInstallationPath)&quot;,&quot;pathVar_EMWIN&quot;:&quot;$(sdkInstallationPath)\\util\\third_party&quot;,&quot;pathVar_CJSON&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\cjson&quot;,&quot;pathVar_USB_GECKO&quot;:&quot;$(sdkInstallationPath)\\platform\\middleware\\usb_gecko&quot;,&quot;pathVar_SCRIPT&quot;:&quot;$(sdkInstallationPath)\\tool\\script&quot;,&quot;pathVar_RADIO_CONFIGURATOR&quot;:&quot;$(sdkInstallationPath)\\platform\\tool\\efr32_radio_configurator&quot;,&quot;pathVar_STUDIO&quot;:&quot;$(sdkInstallationPath)\\.studio&quot;,&quot;pathVar_APPLE_HOMEKIT&quot;:&quot;$(sdkInstallationPath)\\app\\apple_homekit&quot;,&quot;pathVar_MCU_EXAMPLE&quot;:&quot;$(sdkInstallationPath)\\app\\mcu_example&quot;,&quot;pathVar_CUSTOMER_BOARD&quot;:&quot;$(sdkInstallationPath)\\hardware\\customer_board&quot;,&quot;pathVar_UNITY&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\unity&quot;,&quot;pathVar_EXPERIMENTAL&quot;:&quot;$(sdkInstallationPath)\\app\\experimental&quot;,&quot;pathVar_REFERENCE_DESIGN&quot;:&quot;$(sdkInstallationPath)\\hardware\\reference_design&quot;,&quot;pathVar_VSRPC-LIB&quot;:&quot;$(sdkInstallationPath)\\tool\\vsrpc-lib&quot;,&quot;pathVar_FATFS&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\fatfs&quot;,&quot;pathVar_SENSOR_SI114XHRM&quot;:&quot;$(sdkInstallationPath)\\util\\silicon_labs\\sensor_si114xhrm&quot;,&quot;pathVar_IEC60335_CLASSB&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\iec60335_classb&quot;,&quot;pathVar_SCRIPTED_TEST_FRAMEWORK&quot;:&quot;$(sdkInstallationPath)\\tool\\scripted_test_framework&quot;,&quot;pathVar_EMTOOL&quot;:&quot;$(sdkInstallationPath)\\tool\\emtool&quot;,&quot;pathVar_BLUETOOTH_APP&quot;:&quot;$(sdkInstallationPath)\\app\\bluetooth&quot;,&quot;pathVar_JAM&quot;:&quot;$(sdkInstallationPath)\\tool\\jam&quot;,&quot;pathVar_EMDRV&quot;:&quot;$(sdkInstallationPath)\\platform\\emdrv&quot;,&quot;pathVar_SILABS_CORE&quot;:&quot;$(sdkInstallationPath)\\util\\silicon_labs\\silabs_core&quot;,&quot;pathVar_CSLIB&quot;:&quot;$(sdkInstallationPath)\\platform\\middleware\\cslib&quot;,&quot;pathVar_APACHE_COMMONS&quot;:&quot;$(sdkInstallationPath)\\tool\\apache_commons&quot;,&quot;pathVar_MULTIPHY_RADIO_CONFIGURATOR&quot;:&quot;$(sdkInstallationPath)\\platform\\tool\\efr32_multi_phy_radio_configurator&quot;,&quot;pathVar_JENKINS&quot;:&quot;$(sdkInstallationPath)\\tool\\jenkins&quot;,&quot;pathVar_MBEDTLS&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\mbedtls&quot;,&quot;pathVar_BOOTLOADER&quot;:&quot;$(sdkInstallationPath)\\platform\\bootloader&quot;,&quot;pathVar_ZCL&quot;:&quot;$(sdkInstallationPath)\\app\\zcl&quot;,&quot;pathVar_FLEX&quot;:&quot;$(sdkInstallationPath)\\protocol\\flex&quot;,&quot;pathVar_DIGI_LTE&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\digi_lte&quot;,&quot;pathVar_PLUGIN&quot;:&quot;$(sdkInstallationPath)\\util\\plugin&quot;,&quot;pathVar_FREERTOS&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\freertos&quot;,&quot;pathVar_LWIP&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\lwip&quot;,&quot;pathVar_LIBCOAP&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\libcoap&quot;,&quot;pathVar_PAHOMQTT&quot;:&quot;$(sdkInstallationPath)\\util\\third_party\\paho.mqtt.c&quot;,&quot;pathVar_IDE_SUPPORT&quot;:&quot;$(sdkInstallationPath)\\tool\\ide_support&quot;,&quot;pathVar_CODE_GENERATOR&quot;:&quot;$(sdkInstallationPath)\\tool\\code_generator&quot;,&quot;pathVar_EMLIB&quot;:&quot;$(sdkInstallationPath)\\platform\\emlib&quot;,&quot;pathVar_THREAD&quot;:&quot;$(sdkInstallationPath)\\protocol\\thread&quot;,&quot;pathVar_HWCONFDATA&quot;:&quot;$(sdkInstallationPath)\\platform\\hwconf_data&quot;}" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" projectCommon.userSettings="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#13;&#10;&lt;project propertyScope=&quot;project&quot;/&gt;&#13;&#10;"/>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904" name="GNU ARM v7.2.1 - Default" parent="com.silabs.ide.si32.gcc.cdt.managedbuild.config.gnu.exe">
+					<folderInfo id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904." name="/" resourcePath="">
+						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.1757189335" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe">
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script.1487770158" name="Linker Script:" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${workspace_loc:/${ProjName}/efr32bg13p632f512gm48.ld}" valueType="string"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.1223009966" name="Debug Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level" value="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.default" valueType="enumerated"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript.1179640719" name="Use custom linker script" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript" value="true" valueType="boolean"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base.1780655247" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/soc-thermometer}/GNU ARM v7.2.1 - Default" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base.556702084" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Si32 GNU ARM Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.315189387" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect.248173743" name="C Language Dialect" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect.c99" valueType="enumerated"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.type.165530246" name="Floating-Point ABI" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.type" value="floatingpoint.type.softfp" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1642692292" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port/target}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/halconfig}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/halconfig/inc/hal-config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/soc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/EFR32BG13_BRD4104A/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/chip/efr32/efr32xg1x}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Source/GCC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/protocol/ble}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app/bluetooth/common/util}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/uartdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/gpiointerrupt/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/common/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/protocol/ieee802154}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/frameworks/mbed-trace}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port/target}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events/equeue}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/system}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/mac}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/inc/psa}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/platform}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/inc/psa}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/COMPONENT_NSPE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1272}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1272/registers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1276}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1276/registers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX126X}&quot;"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.1453363777" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="EFR32BG13P632F512GM48=1"/>
+									<listOptionValue builtIn="false" value="YOTTA_CFG"/>
+									<listOptionValue builtIn="false" value="HAL_CONFIG=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_LEUART0=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_EFM=1"/>
+									<listOptionValue builtIn="false" value="EQUEUE_PLATFORM_MBED"/>
+									<listOptionValue builtIn="false" value="LFXO_FREQUENCY=32768"/>
+									<listOptionValue builtIn="false" value="LOW_ENERGY_CLOCK_SOURCE=0"/>
+									<listOptionValue builtIn="false" value="__StackLimit=0x20000000"/>
+									<listOptionValue builtIn="false" value="__HEAP_SIZE=0x8000"/>
+									<listOptionValue builtIn="false" value="__STACK_SIZE=0x4000"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level.933729249" name="Optimization Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level" value="gnu.c.optimization.level.optimize" valueType="enumerated"/>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.639148578" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.668831824" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1983822650" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/mbed-port/target}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/halconfig}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/halconfig/inc/hal-config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/soc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/EFR32BG13_BRD4104A/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/chip/efr32/efr32xg1x}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Source/GCC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/protocol/ble}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app/bluetooth/common/util}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/uartdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/gpiointerrupt/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/common/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/protocol/ieee802154}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/frameworks/mbed-trace}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/hal}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events/equeue}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/events}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/system}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/mac}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/platform}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/inc/mbedtls}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/inc/psa}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/COMPONENT_NSPE}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1272}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1272/registers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1276}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX1276/registers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/mbed-semtech-lora-rf-drivers/SX126X}&quot;"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols.1808251092" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="HAL_CONFIG=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
+									<listOptionValue builtIn="false" value="RETARGET_LEUART0=1"/>
+									<listOptionValue builtIn="false" value="DEBUG_EFM=1"/>
+									<listOptionValue builtIn="false" value="LFXO_FREQUENCY=32768"/>
+									<listOptionValue builtIn="false" value="LOW_ENERGY_CLOCK_SOURCE=0"/>
+									<listOptionValue builtIn="false" value="__StackLimit=0x20000000"/>
+									<listOptionValue builtIn="false" value="__HEAP_SIZE=0x8000"/>
+									<listOptionValue builtIn="false" value="__STACK_SIZE=0x4000"/>
+									<listOptionValue builtIn="false" value="EFR32BG13P632F512GM48=1"/>
+									<listOptionValue builtIn="false" value="YOTTA_CFG"/>
+									<listOptionValue builtIn="false" value="EQUEUE_PLATFORM_MBED"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_PLATFORM_DEFAULT_SERIAL_BAUD_RATE=115200"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_EVENTS_SHARED_EVENTSIZE=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_PLATFORM_CTHUNK_COUNT_MAX=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_REGULATOR_MODE=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_STANDBY_MODE=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX1272_LORA_DRIVER_RADIO_VARIANT=SX1272MB2XAS"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX1276_LORA_DRIVER_RADIO_VARIANT=SX1276MB1MAS"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_OVER_THE_AIR_ACTIVATION=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DEVICE_ADDRESS=0x26011FB4"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NWKSENCKEY={ 0xEC, 0x36, 0x93, 0x01, 0x4A, 0x93, 0x8A, 0xE8, 0xA3, 0x09, 0x4C, 0x15, 0x29, 0x8A, 0xE2, 0x20 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_SNWKSINTKEY={ 0xEC, 0x36, 0x93, 0x01, 0x4A, 0x93, 0x8A, 0xE8, 0xA3, 0x09, 0x4C, 0x15, 0x29, 0x8A, 0xE2, 0x20 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NWKSKEY={ 0xEC, 0x36, 0x93, 0x01, 0x4A, 0x93, 0x8A, 0xE8, 0xA3, 0x09, 0x4C, 0x15, 0x29, 0x8A, 0xE2, 0x20 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_APPSKEY={ 0x44, 0xB4, 0xD9, 0xD5, 0xA3, 0xB8, 0xA2, 0xA0, 0x59, 0xCE, 0x46, 0xA2, 0x9E, 0x64, 0x06, 0xC6 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DEVICE_EUI={ 0x00, 0x75, 0x3E, 0xC1, 0x40, 0xCA, 0x44, 0x26 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_APPLICATION_EUI={ 0x70, 0xB3, 0xD5, 0x7E, 0xD0, 0x01, 0x5A, 0x94 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_APPLICATION_KEY={ 0xAD, 0x83, 0xD6, 0x99, 0x09, 0xCD, 0x70, 0xDA, 0xD1, 0xFD, 0x31, 0x76, 0xA7, 0x52, 0x3D, 0x0B }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NETWORK_KEY={ 0x36, 0x4C, 0xC2, 0x6C, 0x6D, 0x62, 0x4B, 0x31, 0x96, 0x44, 0x5F, 0xB7, 0x64, 0x86, 0x72, 0x59 }"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_TX_MAX_SIZE=255"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_FSB_MASK={0x00FF,0x0000,0x0000,0x0000,0x0001}"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_FSB_MASK_CHINA={0x00}"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_GPS_EPOCH_TAI_MINUS_UTC=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_CURRENT_TAI_MINUS_UTC=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_UPLINK_PREAMBLE_LENGTH=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_WAKEUP_TIME=10"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_ADR_ON=false"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_PUBLIC_NETWORK=true"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DUTY_CYCLE_ON_JOIN=false"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_REJOIN_DEFAULT_MAX_COUNT=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_REJOIN_DEFAULT_MAX_TIME=20"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_NB_TRIALS=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_MAX_SYS_RX_ERROR=5"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DOWNLINK_PREAMBLE_LENGTH=8"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_DUTY_CYCLE_ON=false"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_PHY=2"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_VERSION=0"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_LORA_REJOIN_TYPE1_SEND_PERIOD=20"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.level.753902401" name="Optimization Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.level" value="gnu.cpp.compiler.optimization.level.optimize" valueType="enumerated"/>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input.1608546549" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.987889100" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.flags.1957616323" name="Assembler flags" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.flags" value="-c -x assembler-with-cpp -mfpu=fpv4-sp-d16 -mfloat-abi=softfp" valueType="string"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes.599363812" name="Include paths (-I)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.includes" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/halconfig}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/halconfig/inc/hal-config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/soc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/EFR32BG13_BRD4104A/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/chip/efr32/efr32xg1x}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Source/GCC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/protocol/ble}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG13P/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app/bluetooth/common/util}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/uartdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/gpiointerrupt/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/common/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/protocol/ieee802154}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader}&quot;"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols.626637674" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="HAL_CONFIG=1"/>
+									<listOptionValue builtIn="false" value="__STACK_SIZE=0x800"/>
+									<listOptionValue builtIn="false" value="__HEAP_SIZE=0xD00"/>
+									<listOptionValue builtIn="false" value="__StackLimit=0x20000000"/>
+									<listOptionValue builtIn="false" value="EFR32BG13P632F512GM48=1"/>
+								</option>
+								<inputType id="org.eclipse.cdt.core.asmSource.1591196595" superClass="org.eclipse.cdt.core.asmSource"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.843046795" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base">
+								<option id="gnu.c.link.option.userobjs.1641026084" name="Other objects" superClass="gnu.c.link.option.userobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libbluetooth.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libmbedtls.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/binapploader.o}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg13_gcc_release.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libpsstore.a}"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type.937178063" name="Floating-Point ABI" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type" value="floatingpoint.type.softfp" valueType="enumerated"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency.1637614187" name="Use library file circular dependency" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs.903962416" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.clibs.279504636" name="C Library" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.clibs" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec" valueType="enumerated"/>
+								<option id="gnu.c.link.option.libs.1849327624" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="m"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.579157836" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.280731515" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="gnu.cpp.link.option.userobjs.1015805391" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libbluetooth.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libmbedtls.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/binapploader.o}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg13_gcc_release.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libpsstore.a}"/>
+								</option>
+								<option id="gnu.cpp.link.option.libs.751290867" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="m"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.category.ordering.selection.923065275" name="Linker input ordering" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.category.ordering.selection" value="./src/mbed-port/target/PeripheralPins.o;./src/mbed-port/target/analogin_api.o;./src/mbed-port/target/dma_api.o;./src/mbed-port/target/gpio_api.o;./src/mbed-port/target/gpio_irq_api.o;./src/mbed-port/target/mbed_assert_stub.o;./src/mbed-port/target/mbed_critical_stub.o;./src/mbed-port/target/mbed_error_stub.o;./src/mbed-port/target/mbed_trace_stub.o;./src/mbed-port/target/pinmap.o;./src/mbed-port/target/pinmap_function.o;./src/mbed-port/target/spi_api.o;./src/mbed-port/target/us_ticker.o;./platform/emlib/src/em_assert.o;./platform/emlib/src/em_burtc.o;./platform/emlib/src/em_cmu.o;./platform/emlib/src/em_core.o;./platform/emlib/src/em_cryotimer.o;./platform/emlib/src/em_crypto.o;./platform/emlib/src/em_emu.o;./platform/emlib/src/em_eusart.o;./platform/emlib/src/em_gpio.o;./platform/emlib/src/em_i2c.o;./platform/emlib/src/em_msc.o;./platform/emlib/src/em_rmu.o;./platform/emlib/src/em_rtcc.o;./platform/emlib/src/em_se.o;./platform/emlib/src/em_system.o;./platform/emlib/src/em_timer.o;./platform/emlib/src/em_usart.o;./platform/emdrv/sleep/src/sleep.o;./platform/Device/SiliconLabs/EFR32BG13P/Source/GCC/startup_efr32bg13p.o;./platform/Device/SiliconLabs/EFR32BG13P/Source/system_efr32bg13p.o;./mbed-semtech-lora-rf-drivers/SX1276/SX1276_LoRaRadio.o;./mbed-semtech-lora-rf-drivers/SX1272/SX1272_LoRaRadio.o;./mbed-semtech-lora-rf-drivers/SX126X/SX126X_LoRaRadio.o;./mbed-os-feature-lorawan-1-1/platform/CThunkBase.o;./mbed-os-feature-lorawan-1-1/platform/CallChain.o;./mbed-os-feature-lorawan-1-1/platform/mbed_interface.o;./mbed-os-feature-lorawan-1-1/platform/mbed_mem_trace.o;./mbed-os-feature-lorawan-1-1/platform/mbed_mktime.o;./mbed-os-feature-lorawan-1-1/platform/mbed_rtc_time.o;./mbed-os-feature-lorawan-1-1/platform/mbed_sleep_manager.o;./mbed-os-feature-lorawan-1-1/platform/mbed_wait_api_no_rtos.o;./mbed-os-feature-lorawan-1-1/hal/mbed_critical_section_api.o;./mbed-os-feature-lorawan-1-1/hal/mbed_gpio.o;./mbed-os-feature-lorawan-1-1/hal/mbed_pinmap_common.o;./mbed-os-feature-lorawan-1-1/hal/mbed_ticker_api.o;./mbed-os-feature-lorawan-1-1/hal/mbed_us_ticker_api.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/targets/TARGET_Silicon_Labs/aes_aes.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/targets/TARGET_Silicon_Labs/crypto_aes.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/targets/TARGET_Silicon_Labs/crypto_ecp.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/targets/TARGET_Silicon_Labs/crypto_management.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/targets/TARGET_Silicon_Labs/crypto_sha.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/targets/hash_wrappers.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/aes.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/aesni.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/arc4.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/aria.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/asn1parse.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/asn1write.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/base64.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/bignum.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/blowfish.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/camellia.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ccm.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/certs.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/chacha20.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/chachapoly.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/cipher.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/cipher_wrap.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/cmac.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ctr_drbg.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/debug.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/des.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/dhm.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ecdh.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ecdsa.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ecjpake.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ecp.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ecp_curves.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/entropy.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/entropy_poll.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/error.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/gcm.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/havege.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/hkdf.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/hmac_drbg.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/md.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/md2.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/md4.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/md5.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/md_wrap.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/memory_buffer_alloc.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/net_sockets.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/nist_kw.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/oid.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/padlock.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pem.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pk.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pk_wrap.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pkcs11.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pkcs12.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pkcs5.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pkparse.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/pkwrite.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/platform.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/platform_util.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/poly1305.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ripemd160.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/rsa.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/rsa_internal.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/sha1.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/sha256.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/sha512.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ssl_cache.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ssl_ciphersuites.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ssl_cli.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ssl_cookie.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ssl_srv.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ssl_ticket.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/ssl_tls.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/threading.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/timing.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/version.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/version_features.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/x509.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/x509_create.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/x509_crl.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/x509_crt.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/x509_csr.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/x509write_crt.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/x509write_csr.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/src/xtea.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/platform/src/mbed_trng.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/platform/src/platform_alt.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/platform/TARGET_PSA/COMPONENT_NSPE/src/psa_hrng.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/psa_crypto.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/psa_crypto_slot_management.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/psa_crypto_storage.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/psa_crypto_storage_file.o;./mbed-os-feature-lorawan-1-1/features/mbedtls/mbed-crypto/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/psa_crypto_storage_its.o;./mbed-os-feature-lorawan-1-1/features/lorawan/system/LoRaWANTimer.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHY.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYAS923.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYAU915.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYCN470.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYCN779.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYEU433.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYEU868.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYIN865.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYKR920.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/phy/LoRaPHYUS915.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/mac/LoRaMac.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/mac/LoRaMacChannelPlan.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/mac/LoRaMacCommand.o;./mbed-os-feature-lorawan-1-1/features/lorawan/lorastack/mac/LoRaMacCrypto.o;./mbed-os-feature-lorawan-1-1/features/lorawan/LoRaWANInterface.o;./mbed-os-feature-lorawan-1-1/features/lorawan/LoRaWANStack.o;./mbed-os-feature-lorawan-1-1/events/equeue/equeue.o;./mbed-os-feature-lorawan-1-1/events/equeue/equeue_mbed.o;./mbed-os-feature-lorawan-1-1/events/equeue/equeue_posix.o;./mbed-os-feature-lorawan-1-1/events/EventQueue.o;./mbed-os-feature-lorawan-1-1/events/mbed_shared_queues.o;./mbed-os-feature-lorawan-1-1/drivers/AnalogIn.o;./mbed-os-feature-lorawan-1-1/drivers/InterruptIn.o;./mbed-os-feature-lorawan-1-1/drivers/InterruptManager.o;./mbed-os-feature-lorawan-1-1/drivers/SPI.o;./mbed-os-feature-lorawan-1-1/drivers/Serial.o;./mbed-os-feature-lorawan-1-1/drivers/SerialBase.o;./mbed-os-feature-lorawan-1-1/drivers/Ticker.o;./mbed-os-feature-lorawan-1-1/drivers/Timeout.o;./mbed-os-feature-lorawan-1-1/drivers/Timer.o;./mbed-os-feature-lorawan-1-1/drivers/TimerEvent.o;./mbed-os-feature-lorawan-1-1/drivers/UARTSerial.o;./hardware/kit/common/drivers/i2cspm.o;./hardware/kit/common/drivers/mx25flash_spi.o;./hardware/kit/common/drivers/si7013.o;./hardware/kit/common/drivers/tempsens.o;./hardware/kit/common/drivers/udelay.o;./hardware/kit/common/bsp/bsp_stk.o;./app/bluetooth/common/util/infrastructure.o;./application_properties.o;./gatt_db.o;./init_app.o;./init_board.o;./init_mcu.o;./main.o;./pti.o;${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libbluetooth.a};${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libmbedtls.a};${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/binapploader.o};${workspace_loc:/${ProjName}/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg13_gcc_release.a};${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG13P/GCC/libpsstore.a};-lm" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1359230782" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.491619456" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="mbed-os-feature-lorawan-1-1/features/mbedtls|mbed-os-feature-lorawan-1-1/features/mbedtls/platform/TARGET_PSA/COMPONENT_PSA_SRV_IMPL/src/default_random_seed.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule generalProj.esf.protocolIds="com.silabs.sdk.stack.super:2.6.1._310455070.com.silabs.stack.ble:2.12.1.0_-674151068" generalProj.esf.protocolNames="ble" moduleId="com.silabs.ss.framework.ide.project.core.cpp" project.generation="22" projectCommon.boardIds="brd4104a:0.0.0.A00" projectCommon.buildArtifactType="EXE" projectCommon.partId="mcu.arm.efr32.bg13.efr32bg13p632f512gm48" projectCommon.sdkId="com.silabs.sdk.stack.super:2.6.1._310455070" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="soc-thermometer.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.1140338756" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904;com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.315189387;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.639148578">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
