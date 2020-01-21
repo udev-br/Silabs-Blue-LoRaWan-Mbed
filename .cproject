@@ -186,6 +186,9 @@
 									<listOptionValue builtIn="false" value="MBED_CONF_PLATFORM_DEFAULT_SERIAL_BAUD_RATE=115200"/>
 									<listOptionValue builtIn="false" value="MBED_CONF_EVENTS_SHARED_EVENTSIZE=8"/>
 									<listOptionValue builtIn="false" value="MBED_CONF_PLATFORM_CTHUNK_COUNT_MAX=8"/>
+									<listOptionValue builtIn="false" value="MBED_SX1272_LORA_RADIO_SPI_FREQUENCY=4000000"/>
+									<listOptionValue builtIn="false" value="MBED_SX1276_LORA_RADIO_SPI_FREQUENCY=4000000"/>
+									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_SPI_FREQUENCY=4000000"/>
 									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_REGULATOR_MODE=0"/>
 									<listOptionValue builtIn="false" value="MBED_CONF_SX126X_LORA_DRIVER_STANDBY_MODE=0"/>
 									<listOptionValue builtIn="false" value="MBED_CONF_SX1272_LORA_DRIVER_RADIO_VARIANT=SX1272MB2XAS"/>
