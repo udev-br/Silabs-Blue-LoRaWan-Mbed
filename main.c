@@ -42,6 +42,7 @@
 
 /* Device initialization header */
 #include "hal-config.h"
+#include "retargetserial.h"
 
 #ifdef FEATURE_BOARD_DETECTED
 #if defined(HAL_CONFIG)
@@ -204,6 +205,11 @@ int main(void)
   GPIO_PinModeSet( gpioPortA, 4, gpioModePushPull, 1 );
   GPIO_PinModeSet( gpioPortD, 14, gpioModePushPull, 1 );
   GPIO_PinModeSet( gpioPortD, 15, gpioModePushPull, 1 );
+
+#if ( HAL_VCOM_ENABLE == 1 )
+  // Config stdio to Virtual COM port through USB
+  RETARGET_SerialInit();
+#endif
 
   // Initialize LEDs
   BSP_LedsInit();

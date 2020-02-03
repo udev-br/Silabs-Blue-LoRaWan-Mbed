@@ -100,6 +100,7 @@
 									<listOptionValue builtIn="false" value="EFR32BG13P632F512GM48=1"/>
 									<listOptionValue builtIn="false" value="YOTTA_CFG"/>
 									<listOptionValue builtIn="false" value="HAL_CONFIG=1"/>
+									<listOptionValue builtIn="false" value="HAL_VCOM_ENABLE=1"/>
 									<listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
 									<listOptionValue builtIn="false" value="RETARGET_LEUART0=1"/>
 									<listOptionValue builtIn="false" value="DEBUG_EFM=1"/>
@@ -172,6 +173,7 @@
 								</option>
 								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols.1808251092" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="HAL_CONFIG=1"/>
+									<listOptionValue builtIn="false" value="HAL_VCOM_ENABLE=1"/>
 									<listOptionValue builtIn="false" value="RETARGET_VCOM=1"/>
 									<listOptionValue builtIn="false" value="RETARGET_LEUART0=1"/>
 									<listOptionValue builtIn="false" value="DEBUG_EFM=1"/>

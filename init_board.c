@@ -42,8 +42,12 @@ void initBoard(void)
   // Enable clock for USART3
   CMU_ClockEnable(cmuClock_USART3, true);
 #else
+
+  #if ( HAL_VCOM_ENABLE == 1 )
   // Enable clock for USART0
- // CMU_ClockEnable(cmuClock_USART0, true);
+  CMU_ClockEnable(cmuClock_USART0, true);
+  #endif
+
 #endif
   // Enable GPIO clock source
   CMU_ClockEnable(cmuClock_GPIO, true);
