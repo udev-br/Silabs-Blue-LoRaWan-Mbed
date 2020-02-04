@@ -318,7 +318,7 @@ typedef struct {
  *
  * Structure containing a given data rate range.
  */
-typedef union {
+typedef union _dr_range_t {
     /**
      * Byte-access to the bits.
      */
@@ -346,6 +346,14 @@ typedef union {
          */
         uint8_t max : 4;
     } fields;
+
+    _dr_range_t(uint8_t value = 0) :
+    	value(value)
+    { }
+
+    _dr_range_t(const _dr_range_t & other) :
+    	value(other.value)
+    { }
 } dr_range_t;
 
 /**
@@ -353,7 +361,7 @@ typedef union {
  *
  * LoRaMAC channel definition.
  */
-typedef struct {
+typedef struct _channel_params_t {
     /**
      * The frequency in Hz.
      */
@@ -370,6 +378,13 @@ typedef struct {
      * The band index.
      */
     uint8_t band;
+
+    _channel_params_t(uint32_t frequency = 0, uint32_t rx1_frequency = 0, dr_range_t dr_range = dr_range_t(0), uint8_t band = 0) :
+    	frequency(frequency),
+		rx1_frequency(rx1_frequency),
+		dr_range(dr_range),
+		band(band)
+	{ }
 } channel_params_t;
 
 /**
