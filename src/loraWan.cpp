@@ -28,7 +28,6 @@ uint8_t  AppSKey[16] = MBED_CONF_LORA_APPSKEY;
 uint8_t  NwkKey[16]  = MBED_CONF_LORA_NETWORK_KEY;
 uint8_t  AppKey[16]  = MBED_CONF_LORA_APPLICATION_KEY;
 
-int teste=0;
 
 class LoraWanClass
 {
@@ -42,6 +41,8 @@ private:
 
 public:
 	int16_t send ( uint8_t port, const uint8_t *data, uint16_t length, int flags );
+	int16_t receive ( uint8_t * port, uint8_t * data, uint16_t length, int * flags );
+
 	void handle_event_queue();
 
 private:
@@ -159,6 +160,15 @@ LoraWanClass::send ( uint8_t port, const uint8_t *data, uint16_t length, int fla
 
 }
 
+
+int16_t
+LoraWanClass::receive ( uint8_t * port, uint8_t * data, uint16_t length, int * flags )
+{
+
+	return m_lorawanInterface->receive( data, length, *port, *flags );
+}
+
+
 void
 LoraWanClass::handle_event_queue(){
 
@@ -189,6 +199,15 @@ const char * ac_lorawan_event[] = {
 };
 
 
+int tx_done;
+int tx_error;
+int rx_done;
+int rx_timeout;
+
+uint8_t rx_data[256];
+uint8_t rx_port;
+int rx_flag;
+
 void
 LoraWanClass::loraWanEventsCallback ( lorawan_event_t event )
 {
@@ -199,18 +218,33 @@ LoraWanClass::loraWanEventsCallback ( lorawan_event_t event )
         case DISCONNECTED:
             break;
         case TX_DONE:
+
+        	tx_done++;
+
             break;
         case TX_TIMEOUT:
             break;
         case TX_ERROR:
+
+        	tx_error++;
+
             break;
         case CRYPTO_ERROR:
             break;
         case TX_SCHEDULING_ERROR:
             break;
         case RX_DONE:
+        {
+        	rx_done++;
+
+        	LoraWanClass * instance = LoraWanClass::instance();
+        	instance->receive( &rx_port, rx_data, 256, &rx_flag );
+        }
             break;
         case RX_TIMEOUT:
+
+        	rx_timeout++;
+
             break;
         case RX_ERROR:
             break;
@@ -252,4 +286,9 @@ extern "C" void loraWanClass_handle_event_queue ( LoraWanClass* loraWanClass )
 extern "C" void loraWanClass_send ( LoraWanClass* loraWanClass, uint8_t port, const uint8_t *data, uint16_t length, int flags )
 {
 	loraWanClass->send( port, data, length, flags );
+}
+
+extern "C" int16_t loraWanClass_rx ( LoraWanClass* loraWanClass, uint8_t * port, uint8_t * data, uint16_t length, int * flags )
+{
+	return loraWanClass->receive( port, data, length, flags );
 }
