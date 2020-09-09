@@ -377,7 +377,7 @@ lorawan_status_t LoRaMacCommand::process_mac_commands(const uint8_t *payload, ui
                 uint32_t max_time = 1 << time;
 
                 uint8_t time_available = lora_phy.update_rejoin_params(max_time, max_count);
-                add_rejoin_param_setup_ans(time_available);
+                ret_value = add_rejoin_param_setup_ans(time_available);
             }
             break;
             case SRV_MAC_DEVICE_MODE_CONF: {
@@ -579,6 +579,7 @@ lorawan_status_t LoRaMacCommand::add_adr_param_setup_ans()
     lorawan_status_t ret = LORAWAN_STATUS_LENGTH_ERROR;
     if (cmd_buffer_remaining() > 0) {
         mac_cmd_buffer[mac_cmd_buf_idx++] = MOTE_MAC_ADR_PARAM_SETUP_ANS;
+        ret = LORAWAN_STATUS_OK;
     }
     return ret;
 }
@@ -586,9 +587,10 @@ lorawan_status_t LoRaMacCommand::add_adr_param_setup_ans()
 lorawan_status_t LoRaMacCommand::add_rejoin_param_setup_ans(uint8_t status)
 {
     lorawan_status_t ret = LORAWAN_STATUS_LENGTH_ERROR;
-    if (cmd_buffer_remaining() > 0) {
+    if (cmd_buffer_remaining() > 1) {
         mac_cmd_buffer[mac_cmd_buf_idx++] = MOTE_MAC_REJOIN_PARAM_SETUP_ANS;
         mac_cmd_buffer[mac_cmd_buf_idx++] = status & 0x01;
+        ret = LORAWAN_STATUS_OK;
     }
     return ret;
 }
